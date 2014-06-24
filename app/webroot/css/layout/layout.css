@@ -1,0 +1,80 @@
+@font-face {
+	font-family: rockwell;
+	src: url("/font/rockwell.ttf");
+}
+
+body {
+	font-family: rockwell;
+	background: white;
+}
+
+/* Header */
+
+#header {
+	width: 1200px;
+	height: 465px;
+	margin: 0 auto;
+	float: none;
+}
+
+#header>#banner {
+	width: 1200px;
+	height: 350px;
+	background: url("/img/layout/baner.png");
+}
+
+#header>#menuContainer {
+	text-align: center;
+}
+
+#menuContainer #head {
+	width: 214px;
+	height: 215px;
+	background: url("/img/layout/head.png");
+	margin: -90px auto 0;
+	position: relative;
+	z-index: 100;
+	display: inline-block;
+}
+
+#header>#headerLine {
+	background: #E9E9E9;
+	width: inherit;
+	height: 1px;
+	position: relative;
+	top: -35px;
+	z-index: 10;
+}
+
+#helloContainer {
+	color: #A0A0A0;
+	text-align: center;
+}
+
+#helloContainer > .helloLine {
+	background: #A0A0A0;
+	height: 1px;
+	width: 20px;
+	margin: 5px auto 0;
+}
+
+#mainContentContainer {
+	width: 1200px;
+	margin: 60px auto 0;
+}
+
+#footer {
+	height: 200px;
+}
+
+.greenButton {
+	padding: 10px;
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border-radius: 7px;
+    background: #49B1A5;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+}

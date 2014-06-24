@@ -1,0 +1,32 @@
+nav.menu {
+	display: inline-block;
+	vertical-align: top;
+	margin: 25px 0 0 0;
+	width: 265px;
+}
+
+nav.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav.menu ul li {
+	padding: 10px 28px;
+	display: inline-block;
+}
+
+nav.menu .clicked {
+	color: #44B2A5;
+	
+}
+
+/*nav.menu .clicked:after {
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow:         3px 3px 5px 6px #ccc;
+}
+*/
+
+nav.menu .clicked>a { color: inherit;}

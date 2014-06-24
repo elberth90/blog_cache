@@ -1,0 +1,130 @@
+.postContainer {
+	/*background: red;*/
+	width: 945px;
+	height: 304px;
+	margin: 0 auto 32px;
+	border-bottom: 2px dashed #EBEBEB
+}
+
+.dateContainer {
+	float: left;
+}
+
+.postMiddleContainer {
+	float: left;
+}
+
+.dateCircle {
+	background-color: rgba(204, 0, 102, 0);
+	border: 6px solid #EBEBEB;
+	height: 122px;
+	width: 122px;
+	-moz-border-radius: 122px;
+	-webkit-border-radius: 122px;
+	color: #49B1A5;
+	line-height: 118px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.dateCircle > span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal; 
+}
+
+.infoContainer {
+	width: 806px;
+	height: 68px;
+	color: #B7B7B7;
+	border-bottom: 2px solid #EBEBEB;
+}
+
+.infoContainer > .postCategoryContainer {
+	float: left;
+	height: 23px;
+	padding: 0 10px 0 15px;
+	border-right: 2px solid #EBEBEB;
+	line-height: 23px;
+	margin: 38px 0 0 0;
+}
+
+.infoContainer > .postCategoryContainer > .pointsCategoryContent > span { color: #49B1A5;}
+
+
+.infoContainer > .postLikes {
+	float: left;
+	height: inherit;
+	padding: 0 15px 0 15px;
+	height: 23px;
+	border-right: 2px solid #EBEBEB;
+	line-height: 23px;
+	margin: 38px 0 0 0;
+}
+
+.infoContainer > .postLikes > .likesIcon {
+	background: url("/img/layout/heart.png") no-repeat;
+	width: 18px;
+	height: 14px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	padding: 0 0 0 5px;
+}
+
+.infoContainer > .postComments {
+	float: left;
+	height: inherit;
+	padding: 0 0 0 15px;
+	height: 23px;
+	line-height: 23px;
+	margin: 38px 0 0 0;
+}
+
+.infoContainer > .postComments > .commentsIcon{
+	background: url("/img/layout/comment.png") no-repeat;
+	width: 16px;
+	height: 14px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	padding: 0 0 0 5px;
+}
+
+.postMainContent {
+	margin: 20px 0 0 15px;
+}
+
+.postMainContent > .postTitle {
+	font-size: 34px;
+	font-weight: bolder;
+	color: black;
+}
+
+.postMainContent > .postContent{
+	width: 795px;
+	color: #8E8E8E;
+	font-size: 16px;
+	margin: 15px 0 0 0;
+	line-height: 19px;
+}
+
+.postMainContent > .readMore {
+	color: #49B1A5;
+	margin: 15px 0 0 0;
+	display: inline-block;
+}
+
+.postMainContent > .readMore > a { color: inherit;}
+.postMainContent > .readMore > a:hover + .readMoreShadow {
+	width: inherit;
+	height: 1px;
+	background: #E1E1E1;
+	margin: 3px 0 0 0;
+}
+
+#loadMoreContainer { text-align: center;}
+
+
+

@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+CACHE:
+./css/reset.css
+./css/layout/layout.css
+./css/layout/menu.css
+./css/posts/post.css
+./css/posts/view.css
+./img/layout/baner.png
+./img/layout/comment.png
+./img/layout/head.png
+./img/layout/heart.png
+./img/no_internet.jpg
+./font/rockwell.ttf
+
+FALLBACK:
+./ no_internet.html
+
+NETWORK:
+./manifest.appcache
+*
+http://*
+https://*

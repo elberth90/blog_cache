@@ -32,4 +32,47 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 	public $components = array('DebugKit.Toolbar');
+
+	public function beforeFilter() {
+		$this->getMenu();
+	}
+
+	private function getMenu() {
+		$menuLeft = array(
+			"home" => array(
+				"text" => "HOME",
+				"link" => array(
+					"controller" => "pages",
+					"action" => "display"
+				),
+				"clicked" => true
+			),
+			"about" => array(
+				"text" => "ABOUT",
+				"link" => array(
+					"controller" => "pages",
+					"action" => "display"
+				),
+			),
+			
+		);
+		$menuRight = array(
+			"category" => array(
+				"text" => "CATEGORY",
+				"link" => array(
+					"controller" => "pages",
+					"action" => "display"
+				),
+			),
+			"contact" => array(
+				"text" => "ABOUT",
+				"link" => array(
+					"controller" => "pages",
+					"action" => "display"
+				),
+			),
+		);
+
+		$this->set(compact("menuLeft", "menuRight"));
+	}
 }
